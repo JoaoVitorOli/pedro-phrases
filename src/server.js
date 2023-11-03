@@ -17,6 +17,12 @@ app.post("/pedro", async (req, res) => {
       height: 400,
       width: 700,
     },
+    args: [
+      `--disable-gpu`,
+      `--disable-setuid-sandbox`,
+      `--no-sandbox`,
+      `--no-zygote`,
+    ],
   });
   const page = await browser.newPage();
 
@@ -39,7 +45,7 @@ app.post("/pedro", async (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("Server listen to port 3333 👌");
+  console.log("Server listen to port 3000 👌");
 });
 
 function generateHtml(text) {
