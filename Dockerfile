@@ -23,4 +23,4 @@ COPY . /usr/src/app
 
 EXPOSE 3000
 
-CMD ["npm", "start"]
+CMD ["npm", "start", "&", "node", "node_modules/puppeteer/install.js"]
