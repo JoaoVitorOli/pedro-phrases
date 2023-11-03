@@ -38,7 +38,7 @@ app.post("/pedro", async (req, res) => {
   }, 500);
 });
 
-app.listen(3333, () => {
+app.listen(3000, () => {
   console.log("Server listen to port 3333 👌");
 });
 
