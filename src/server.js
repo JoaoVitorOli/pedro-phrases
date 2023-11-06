@@ -41,7 +41,7 @@ app.post("/pedro", async (req, res) => {
       image64: base64String,
       text,
     });
-  }, 500);
+  }, 1000);
 });
 
 app.listen(3000, () => {
