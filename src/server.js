@@ -51,7 +51,7 @@ app.listen(3000, () => {
 function generateHtml(text) {
   const img = [
     "https://i.imgur.com/GJjARNm.png",
-    "https://i.imgur.com/vaeonQK.png",
+    "https://i.imgur.com/mmcu3Bq.png"
   ];
 
   const html = `<!DOCTYPE html>
